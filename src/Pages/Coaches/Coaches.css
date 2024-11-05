@@ -1,0 +1,21 @@
+.coach-image{
+    width: 80% !important;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+.btn-bg{
+background-color: green !important;
+ color: aliceblue;
+ border: none;
+ margin-top: 10%;
+ width: 100% !important;
+}
+.meta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.btn-bg:hover{
+    color: aliceblue !important;
+}

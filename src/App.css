@@ -1,0 +1,43 @@
+/* styles.css */
+.ant-menu-item-selected {
+  background-color: #48BB78 !important;
+}
+
+.ant-menu-item-selected a {
+  color: #fff !important;
+}
+/* styles.css */
+.ant-menu-item-selected {
+  background-color: #48BB78 !important;
+}
+
+.ant-menu-item-selected a {
+  color: #fff !important;
+}
+
+.ant-menu-item a:hover {
+  color: #48BB78 !important;
+}
+
+.ant-menu-item a {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-menu-item .anticon {
+  margin-right: 8px;
+}
+
+/* Ensure the icon color changes to white when a link is active */
+.ant-menu-item-selected .anticon {
+  color: #fff !important;
+}
+
+/* Center the logo in the mobile view */
+@media (max-width: 768px) {
+  .ant-drawer-body img {
+    margin: 0 auto;
+  }
+}
+
